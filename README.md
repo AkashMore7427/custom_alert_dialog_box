@@ -1,5 +1,5 @@
 <p align='center'>
-    <img src="https://raw.githubusercontent.com/AkashMore7427/custom_alert_dialog_box/master/examplegif.gif" width=500px height=700px />
+    <img src="https://raw.githubusercontent.com/AkashMore7427/custom_alert_dialog_box/master/examplegif.gif" width=300px height=700px />
 </p>
 
 # Usage
@@ -8,7 +8,7 @@ First, add `custom_alert_dialog_box` as a dependency in your pubspec.yaml file.
 
 ```yaml
 dependencies:
-  custom_alert_dialog_box: ^1.0.1
+  custom_alert_dialog_box: ^1.0.2
 ```
 
 Don't forget to `flutter pub get`.
