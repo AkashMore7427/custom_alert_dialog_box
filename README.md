@@ -1,5 +1,5 @@
 <p align='center'>
-    <!-- <img src="https://raw.githubusercontent.com/jonbhanson/flutter_native_splash/master/splash_demo.gif" /> -->
+    <img src="https://raw.githubusercontent.com/AkashMore7427/custom_alert_dialog_box/master/examplegif.gif" />
 </p>
 
 # Usage
