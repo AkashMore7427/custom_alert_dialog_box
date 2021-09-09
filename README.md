@@ -1,5 +1,5 @@
 <p align='center'>
-    <img src="https://raw.githubusercontent.com/AkashMore7427/custom_alert_dialog_box/master/examplegif.gif" width=300px height=700px />
+    <img src="https://raw.githubusercontent.com/AkashMore7427/custom_alert_dialog_box/master/examplegif.gif" width=400px height=700px />
 </p>
 
 # Usage
