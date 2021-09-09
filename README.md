@@ -1,14 +1,37 @@
-# custom_alert_dialog_box
+<p align='center'>
+    <!-- <img src="https://raw.githubusercontent.com/jonbhanson/flutter_native_splash/master/splash_demo.gif" /> -->
+</p>
 
-A new Flutter package project.
+# Usage
 
-## Getting Started
+First, add `custom_alert_dialog_box` as a dependency in your pubspec.yaml file.
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+```yaml
+dependencies:
+  custom_alert_dialog_box: ^1.0.1
+```
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Don't forget to `flutter pub get`.
+
+## Implementation
+
+To use this Widget,
+
+```yaml
+1: # import 'package:custom_alert_dialog_box/custom_alert_dialog_box.dart'; inside your dart file
+2: # Call the widget CustomAlertDialogBox.showCustomAlertBox().
+3: # The widget takes in 2 argument: Context and Widget Your Want to Display in Dialog.
+```
+
+```yaml
+When you want to use it, call the CustomAlertDialogBox.showCustomAlertBox() as bellow examples show
+```
+
+```
+await CustomAlertDialogBox.showCustomAlertBox(
+    context: context,
+    willDisplayWidget: Container(
+        child: Text('My custom alert dialog box'),
+    ),
+);
+```
